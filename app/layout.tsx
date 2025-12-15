@@ -26,6 +26,10 @@ html {
         `}</style>
       </head>
       <body>{children}</body>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#7e22ce" />
+      </head>
     </html>
   )
 }
